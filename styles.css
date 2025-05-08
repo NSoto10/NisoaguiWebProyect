@@ -1,0 +1,52 @@
+.banner{
+    background-color: rgba(0, 0, 0, .5);
+    background-image: url(rsc/img-compress/constructor1.avif);
+    background-size: cover;
+    background-position: 50% 50%;
+    background-blend-mode: multiply;
+    background-attachment: fixed;
+}
+
+
+.imgprod{
+    width: 100%;
+}
+
+#video{
+    align-content: center;
+    flex: auto;
+}
+
+.title_1 {
+    font-family: Oswald, sans-serif;
+    font-size: 2.8rem;
+    font-weight: 700;
+    line-height: .95;
+    letter-spacing: -.12rem;
+}
+
+.centrar-vertical {
+    display: flex;
+    align-items: center;
+    /* Centra verticalmente */
+    min-height: 700px;
+    /* Altura mínima del viewport */
+}
+
+
+
+
+@media (min-width: 800px) {
+    .title_1 {
+        font-family: Oswald, sans-serif;
+        font-size: 4.5rem;
+        line-height: 1;
+    }
+}
+
+@media (min-width: 800px) {
+    .banner {
+        height: 1350px;
+    }
+}
+
