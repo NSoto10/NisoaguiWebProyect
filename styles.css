@@ -9,7 +9,11 @@
 
 
 .imgprod{
-    width: 100%;
+    width: 290px;
+}
+
+.img_ic {
+    width: 200px;
 }
 
 #video{
